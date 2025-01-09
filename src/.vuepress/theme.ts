@@ -6,24 +6,24 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   fullscreen: true,
   hostname: "https://hopetest.zhangtq.com",
-
   author: {
     name: "摘星",
-    url: "https://www.cnblogs.com/zhangtq/p/11940709.html",
-    email: "1028354023@qq.com"
+    url: "https://www.cnblogs.com/zhangtq",
+    email: "ztq1028354023@163.com"
   },
   // iconAssets: "fontawesome-with-brands",
   // iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
   iconAssets: [
-    "//at.alicdn.com/t/c/font_4782397_ldg41l0yhd9.css",
+    // "fontawesome-with-brands",
+    "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
   ],
 
-  logo: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/logo.svg",
+  // logo: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/startpick-cat.png",
 
-  repo: "https://gitee.com/zhangtqup/vuepress-theme-hope.git",
+  repo: "https://gitee.com/zhangtqup/vuepress_theme_hope.git",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为
   // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
-  repoLabel: "Gitee",
+  // repoLabel: "Gitee",
   docsDir: "src",
   // 导航栏
   navbar,
@@ -36,6 +36,7 @@ export default hopeTheme({
   footer: 'Copyright © 2022-至今 摘星 | <a href="https://beian.miit.gov.cn" target="_blank">京ICP备2024070721号</a>',
   displayFooter: true,
 
+  // sidebarSorter: ['order', 'readme', 'title', 'filename'],
   // 博客相关
   blog: {
     description: "手握日月摘星辰，世间无我这般人",
@@ -44,8 +45,16 @@ export default hopeTheme({
       "163Music": "https://music.163.com/#/user/home?id=61633353",
       Email: "mailto:1028354023@qq.com",
       Gitee: "https://gitee.com/zhangtqup",
-      GitHub: "https://github.com/DeepOcean299",
+      GitHub: "https://github.com/StarsPicking",
       Rss: "https://hope.zhangtq.com/rss.xml",
+      "vdoing博客": {
+        icon: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/blogger.svg",
+        link: "https://www.zhangtq.com",
+      },
+      "博客园": {
+        icon: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/博客园.svg",
+        link: "https://www.cnblogs.com/zhangtq",
+      },
       // VuePressThemeHope: {
       //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
       //   link: "https://theme-hope.vuejs.press",

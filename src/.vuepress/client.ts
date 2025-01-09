@@ -9,7 +9,7 @@ import "vuepress-theme-hope/presets/hr-driving-car.scss";
 
 export default defineClientConfig({
   setup: () => {
-    setupTransparentNavbar({ type: "all", threshold: 20 });  // type?: "homepage" | "blog-homepage" | "all";
+    // setupTransparentNavbar({ type: "all", threshold: 20 });  // type?: "homepage" | "blog-homepage" | "all";
     setupRunningTimeFooter(
         new Date("2023-01-01"),
         {
