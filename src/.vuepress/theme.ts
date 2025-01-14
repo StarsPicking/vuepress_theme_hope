@@ -13,11 +13,10 @@ export default hopeTheme({
   },
   // iconAssets: "fontawesome-with-brands",
   // iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-  iconAssets: [
-    // "fontawesome-with-brands",
-    "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
-  ],
-
+  // iconAssets: [
+  //   // "fontawesome-with-brands",
+  //   "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
+  // ],
   headerDepth: 4,
   // logo: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/startpick-cat.png",
 
@@ -160,7 +159,9 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
-
+    icon:{
+      assets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
+    },
     components: {
       components: ["Badge", "VPCard"],
     },
