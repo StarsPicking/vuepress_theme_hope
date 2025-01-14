@@ -42,7 +42,7 @@ export default navbar([
     text: '技术栈',
     icon: 'jishuzhan',
     // prefix: '/techtack/',
-    link: 'techstack/',
+    // link: 'techstack/',
     children: [
       {
         text: "数据库",

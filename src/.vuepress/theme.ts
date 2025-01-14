@@ -18,6 +18,7 @@ export default hopeTheme({
     "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
   ],
 
+  headerDepth: 4,
   // logo: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/startpick-cat.png",
 
   repo: "https://gitee.com/zhangtqup/vuepress_theme_hope.git",
