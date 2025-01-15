@@ -11,20 +11,12 @@ export default hopeTheme({
     url: "https://www.cnblogs.com/zhangtq",
     email: "ztq1028354023@163.com"
   },
-  // iconAssets: "fontawesome-with-brands",
-  // iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-  // iconAssets: [
-  //   // "fontawesome-with-brands",
-  //   "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
-  // ],
-  headerDepth: 4,
-  // logo: "https://zhangtq-blog.oss-cn-hangzhou.aliyuncs.com/content_picture/startpick-cat.png",
+  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "https://gitee.com/zhangtqup/vuepress_theme_hope.git",
-  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
-  // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
-  // repoLabel: "Gitee",
+
   docsDir: "src",
+
   // 导航栏
   navbar,
 
@@ -36,7 +28,6 @@ export default hopeTheme({
   footer: 'Copyright © 2022-至今 摘星 | <a href="https://beian.miit.gov.cn" target="_blank">京ICP备2024070721号</a>',
   displayFooter: true,
 
-  // sidebarSorter: ['order', 'readme', 'title', 'filename'],
   // 博客相关
   blog: {
     description: "手握日月摘星辰，世间无我这般人",
@@ -159,14 +150,17 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
-    icon:{
-      assets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-    },
+
     components: {
       components: ["Badge", "VPCard"],
     },
+
+    icon: {
+      assets: "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
+    },
     feed: {
       devServer: true,
+      devHostname: " http://localhost:8080/",
       count: 5000,
       rss: true,
       atom: true,

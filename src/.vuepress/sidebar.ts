@@ -39,32 +39,33 @@ export default sidebar({
   //   { text: "🔵 IP", link: "ip"},
   //   { text: "🟢 HTTP", link: "http"},
   // ],
-  "/developer/": [
-    back_posts,
-    {
-      text: '开发者',
-      icon: 'developer',
-      prefix: '/01.developer/',
-      link: '/developer/',
-      children: 'structure',
-    }
-  ],
   '/developer/python/': [
     back_developer,
     {
       text: 'python',
       icon: 'python',
-      prefix: '01.python/',
       link: '/developer/python/',
       children: 'structure',
     }
   ],
+
+  "/developer/": [
+    back_posts,
+    {
+      text: '开发者',
+      icon: 'developer',
+      // prefix: '/developer/',
+      link: '/developer/',
+      children: 'structure',
+    }
+  ],
+
   '/developer/golang/': [
     back_developer,
     {
       text: 'golang',
       icon: 'golang',
-      link: '01.developer/golang/',
+      // link: '01.developer/golang/',
       children: 'structure',
     },
   ],
@@ -157,7 +158,7 @@ export default sidebar({
     {
       text: "开发者",
       icon: "kaifazhe",
-      prefix: "01.developer/",
+      prefix: "developer/",
       link: "/developer/",
       children: "structure",
     },

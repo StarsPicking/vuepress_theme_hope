@@ -1,6 +1,5 @@
-import { getDirname, path } from "vuepress/utils";
-import { defineUserConfig } from "vuepress";
-
+import { defineUserConfig} from "vuepress";
+import { path } from "vuepress/utils";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -8,12 +7,10 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "",
-  description: "",
+  description: "摘星的博客",
 
   theme,
 
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
