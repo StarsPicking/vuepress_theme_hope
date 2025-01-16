@@ -2,8 +2,6 @@
 order: 2
 title: 开发者
 index: false
-category: 
-  - 编程
 permalink: /developer/
 dir: 
   order: 2

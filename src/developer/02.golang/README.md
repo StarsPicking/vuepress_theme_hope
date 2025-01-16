@@ -1,11 +1,6 @@
 ---
 title: golang
 icon: golang
-pageInfo: 
-  - Author
-  - PageView
-category: 
-  - golang
 tag: 
   - 目录
 index: false
@@ -15,7 +10,7 @@ dir:
 date: 2025-01-10 12:58:05
 categories: 
   - developer
-  - Golang
+  - golang
 author: 
   name: zhangtq
   link: https://www.cnblogs.com/zhangtq
@@ -23,11 +18,5 @@ author:
 
 # golang
 
-
-::: info 程序员是世界上最酷的一群人。
-
-记录一些与编程相关的技巧与心得。
-
-:::
 
 <Catalog base='/developer/golang/' />
