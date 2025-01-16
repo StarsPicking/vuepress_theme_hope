@@ -1,27 +1,27 @@
 ---
-title: python
-icon: python
+title: golang
+icon: golang
 pageInfo: 
   - Author
   - PageView
 category: 
-  - python
+  - golang
 tag: 
   - 目录
 index: false
-permalink: /developer/python/
+permalink: /developer/golang/
 dir: 
-  order: 1
-date: 2025-01-10 12:57:36
+  order: 2
+date: 2025-01-10 12:58:05
 categories: 
   - developer
-  - Python
+  - Golang
 author: 
   name: zhangtq
   link: https://www.cnblogs.com/zhangtq
 ---
 
-# python
+# golang
 
 
 ::: info 程序员是世界上最酷的一群人。
@@ -30,4 +30,4 @@ author:
 
 :::
 
-<Catalog base='/developer/python/' />
+<Catalog base='/developer/golang/' />
