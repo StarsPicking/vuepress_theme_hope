@@ -47,56 +47,94 @@ export default navbar([
       {
         text: "数据库",
         children: [
-          { text: 'mysql', icon: 'mysql', link: '/techstack/mysql/' },
-          { text: 'redis', icon: 'redis', link: '/techstack/redis/' },
-          { text: 'mongodb', icon: 'golang', link: '/techstack/mongodb/' },
-          { text: 'es', icon: 'es', link: '/developer/es/' },
+          { text: 'mysql', icon: 'mysql', link: '/techstack/database/mysql/' },
+          { text: 'redis', icon: 'redis', link: '/techstack/database/redis/' },
+          { text: 'mongodb', icon: 'golang', link: '/techstack/database/mongodb/' },
         ]
       },
       {
         text: "微服务",
         children: [
-          { text: 'istio', icon: 'linux', link: '/techstack/linux/' },
-          { text: 'rpc和grpc', icon: 'http', link: '/techstack/http/' },
+          { text: 'istio', icon: 'istio', link: '/techstack/microsoft/linux/' },
+          { text: 'rpc和grpc', icon: 'rpc', link: '/techstack/microsoft/http/' },
         ]
       },
       {
         text: "中间件",
         children: [
-          { text: 'nginx', icon: 'nginx', link: '/techstack//nginx/' },
-          { text: 'zabbix', icon: 'zabbix', link: '/techstack/zabbix/' },
-          { text: 'elk', icon: 'elk', link: '/techstack/elk/' },
+          { text: 'nginx', icon: 'nginx', link: '/techstack/component/nginx/' },
+          { text: 'elasticsearch', icon: 'es', link: '/techstack/component/es/' },
+          { text: 'zabbix', icon: 'zabbix', link: '/techstack/component/zabbix/' },
+          { text: 'elk', icon: 'elk', link: '/techstack/component/elk/' },
         ]
       },
 
     ],
   },
+  '/interview/',
 
-  {
-    text: '资源',
-    icon: 'ziyuan',
-    link: 'resource/',
-    children: [
-      {
-        text: "娱乐",
-        icon: 'media',
-        children: [
-          {text: '书籍', icon:'book1', link: "/resource/media/books/"},
-          {text: '电影', icon:'movie', link: "/resource/media/movies/"},
-          {text: '实用网站', icon: 'web', link: "/resource/media/webs/"},
+  // {
+    // text: '面试',
+    // icon: 'mianshi',
+    // link: 'interview/',
+    // children: [
+    //   {
+    //     text: "编程语言",
+    //     icon: 'bianchengyuyan',
+    //     children: [
+    //       {text: 'python', link: "/interview/python/"},
+    //       {text: 'golang',  link: "/interview//golang/web"},
+    //     ]
+    //   },
 
-        ]
-      },
-      {
-        text: "工具",
-        icon: 'tool',
-        children: [
-          {text: '绿色软件', icon:'pojie', link: "/resource/tool/greesoftware/"},
+    //   {
+    //     text: "devops",
+    //     icon: 'devops',
+    //     children: [
+    //       {text: '版本控制', link: "/interview/git/"},
+    //       {text: 'jenkins', link: "/interview/devops/"},
+    //       {text: 'harbor',  link: "/interview//harbor/"},
+    //       {text: 'k8s', link: "/interview/k8s"}
+    //     ]
+    //   },
+
+    //   {
+    //     text: "数据库",
+    //     icon: 'database',
+    //     children: [
+    //       {text: 'mysql', link: "/interview/mysql/"},
+    //       {text: 'redis', link: "/interview/redis/"},
+    //       {text: 'mongodb',  link: "/interview//mongodb/"}
+    //     ]
+    //   },
+    // ],
+  // },
+
+  // {
+  //   text: '资源',
+  //   icon: 'ziyuan',
+  //   link: 'resource/',
+  //   children: [
+  //     {
+  //       text: "娱乐",
+  //       icon: 'media',
+  //       children: [
+  //         {text: '书籍', icon:'book1', link: "/resource/media/books/"},
+  //         {text: '电影', icon:'movie', link: "/resource/media/movies/"},
+  //         {text: '实用网站', icon: 'web', link: "/resource/media/webs/"},
+
+  //       ]
+  //     },
+  //     {
+  //       text: "工具",
+  //       icon: 'tool',
+  //       children: [
+  //         {text: '绿色软件', icon:'pojie', link: "/resource/tool/greesoftware/"},
 
 
-        ]
-      },
-    ],
-  },
-  '/about/',
+  //       ]
+  //     },
+  //   ],
+  // },
+  '/resource/'
 ]);

@@ -152,11 +152,11 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "SiteInfo"],
     },
 
     icon: {
-      assets: "//at.alicdn.com/t/c/font_4782397_2ql9i28qpt9.css",
+      assets: "//at.alicdn.com/t/c/font_4782397_vskka9atggg.css",
     },
     feed: {
       devServer: true,
