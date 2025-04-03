@@ -71,6 +71,27 @@ export default navbar([
 
     ],
   },
+
+  {
+    text: '自媒体',
+    icon: 'video',
+    // prefix: '/techtack/',
+    // link: 'techstack/',
+    children: [
+      {
+        text: "pr",
+        children: [
+          { text: 'pr小白', icon: 'rumen', link: '/editing/pr/xb/' },
+          { text: 'pr进阶',  icon: 'chengzhang', link: '/editing/pr/improvement/' },
+          { text: '技巧提升', icon: 'gaoshou', link: '/editing/pr/tip/' },
+        ]
+      },
+
+    ],
+  },
+
+
+
   '/interview/',
 
   // {

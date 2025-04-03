@@ -250,6 +250,13 @@ export default sidebar({
       link: "techstack/",
       children: "structure",
     },
+    {
+      text: "自媒体",
+      icon: "video",
+      prefix: "editing/",
+      link: "editing/",
+      children: "structure",
+    },
     // {
     //   text: "面试",
     //   icon: "mianshi",
